@@ -81,20 +81,20 @@ export default function Rotate() {
   //   style={{ width: 100, height: 100, backgroundColor: 'teal' }}
   // />
 
-  // <motion.div
-  //   initial={{ opacity: 0, y: 50 }}
-  //   whileInView={{ opacity: 1, y: 0 }}
-  //   transition={{ duration: 0.8 }}
-  //   viewport={{ once: true }}
-  //   style={{ 
-  //     width: 200, 
-  //     height: 200, 
-  //     backgroundColor: 'purple',
-  //     borderRadius: 10
-  //   }}
-  // >
-  //   Contenu visible au défilement
-  // </motion.div>
+  <motion.div
+    initial={{ opacity: 0, y: 50 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.8 }}
+    viewport={{ once: true }}
+    style={{ 
+      width: 200, 
+      height: 200, 
+      backgroundColor: 'purple',
+      borderRadius: 10
+    }}
+  >
+    Contenu visible au défilement
+  </motion.div>
 
   );
 }
